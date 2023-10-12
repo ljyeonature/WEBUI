@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>GOLDCAFE</title>
+ <link rel="stylesheet" type="text/css" href="./css/style.css">
+ <script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="./js/menu.js" charset="utf-8"></script>
+</head>
+<body>
+
+<div id="topdiv">
+<table class="menutbl">
+	<tr id="menutitle">
+		<th colspan=6 id="titleText">G O L D M E N U</th>
+	</tr>
+	<tr class="menus">
+		<td id='menu1' class='menu'>
+			<img src="./images/goldBar.gif" alt="금" /> <br/>
+			<span id="label1" data-value='1돈'>1돈</span>
+			<span id="price1" data-value=500000>500,000</span>원
+			<br/>
+			<button class="countBtn" id="plus">+</button>
+			<button class="countBtn" id="minus">-</button>
+		</td>
+		<td id='menu2' class='menu'>
+			<img src="./images/goldBar.gif" alt="금" /> <br/>
+			<span id="label2" data-value = '2돈'>2돈</span> 
+			<span id="price2" data-value = '1000000'>1,000,000</span>원
+			<br/>
+			<button class="countBtn"  id="plus">+</button>
+			<button class="countBtn" id="minus">-</button>
+			
+		</td>
+		<td id='menu3' class='menu'>
+			<img src="./images/goldBar.gif" alt="금" /> <br/>
+			<span id="label3" data-value = '3돈'>3돈</span>
+			<span id="price3" data-value = '1500000'>1,500,000</span>원<br/>
+			<button class="countBtn"  id="plus">+</button>
+			<button class="countBtn" id="minus">-</button>
+		</td>
+	</tr>
+	<tr class="menus">
+		<td id='menu4' class='menu'>
+			<img src="./images/goldBar.gif" alt="금" /> <br/>
+			<span id="label4" data-value = '4돈'>4돈</span>
+			<span id="price4" data-value = '2000000'>2,000,000</span>원
+			<br/>
+			<button class="countBtn"  id="plus">+</button>
+			<button class="countBtn" id="minus">-</button>
+		</td>
+		<td id='menu5' class='menu'>
+			<img src="./images/goldBar.gif" alt="금" /> <br/>
+			<span id="label5" data-value = '5돈'>5돈</span> 
+			<span id="price5" data-value = '2500000'>2,500,000</span>원
+			<br/>
+			<button class="countBtn"  id="plus">+</button>
+			<button class="countBtn" id="minus">-</button>
+			
+		</td>
+		<td id='menu6' class='menu'>
+			<img src="./images/goldBar.gif" alt="금" /> <br/>
+			<span id="label6" data-value = '6돈'>6돈</span>
+			<span id="price6" data-value = '3000000'>3,000,000</span>원<br/>
+			<button class="countBtn"  id="plus">+</button>
+			<button class="countBtn" id="minus">-</button>
+		</td>
+		<tr class="menus">
+		<td id='menu7' class='menu'>
+			<img src="./images/goldBar.gif" alt="금" /> <br/>
+			<span id="label7" data-value = '7돈'>7돈</span>
+			<span id="price6" data-value = '3500000'>3,500,000</span>원<br/>
+			<button class="countBtn"  id="plus">+</button>
+			<button class="countBtn" id="minus">-</button>
+		</td>
+		<td id='menu8' class='menu'>
+			<img src="./images/goldBar.gif" alt="금" /> <br/>
+			<span id="label8" data-value = '8돈'>8돈</span>
+			<span id="price8" data-value = '4000000'>4,000,000</span>원<br/>
+			<button class="countBtn"  id="plus">+</button>
+			<button class="countBtn" id="minus">-</button>
+		</td>
+		<td id='menu9' class='menu'>
+			<img src="./images/goldBar.gif" alt="금" /> <br/>
+			<span id="label9" data-value = '9돈'>9돈</span>
+			<span id="price9" data-value = '4500000'>4,500,000</span>원<br/>
+			<button class="countBtn"  id="plus">+</button>
+			<button class="countBtn" id="minus">-</button>
+		</td>
+	</tr>
+	</tr>
+	
+</table>
+</div>
+<form method="get">
+<div id="bottomdiv">
+<table id="listTable">
+	<tr id="listtitle">
+		<th colspan=4 id="titleText">주문내역</th>
+	</tr>
+	<tr id="totallist">
+		<td colspan='4' id="totalList">
+			<div id="totalDiv">
+				<span>총합 : </span>
+				<input type='text'  id='total' data-value='0'/>
+				<span>원</span>
+			</div>
+			<input type='submit'	value='주문하기'  id='orderBtn'/>
+		</td>
+	</tr>
+	<tr id="listtr">
+		<td width="100">금괴(돈)</td>
+		<td width="50">가격</td>
+		<td width="100">갯수</td>
+		<td width="50">삭제</td>
+	</tr>
+	<!-- <tr id="listtr">
+		<td width="150">목록</td>
+		<td width="100">갯수</td>
+		<td width="50">삭제</td>
+	</tr> -->
+	
+</table>
+</form>
+</div>
+
+</body>
+</html>

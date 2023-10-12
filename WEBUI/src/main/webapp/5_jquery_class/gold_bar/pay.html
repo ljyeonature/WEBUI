@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pay</title>
+  <link rel="stylesheet" type="text/css" href="./css/pay.css">
+  <script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"></script>
+  <script src="./js/pay.js"></script>
+</head>
+<body>
+  <form id="form">
+    <table id="orderListCheckTable">
+      <tr id="orderListTitle">
+        <th colspan=3 id="titleText">주문확인</th>
+      </tr>
+      <tr>
+        <td width="100">금괴(돈)</td>
+        <td width="100">가격</td>
+        <td width="100">개수</td>
+      </tr>
+    </table>
+    <div id="total">
+      <span>총합 : </span>
+      <p id="totalValue">총합</p>
+      <span>원</span>
+    </div>
+    
+    <input type="button" id="payBtn" value="결제"/>
+
+  </form>
+</body>
+</html>
